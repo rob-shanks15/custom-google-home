@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(32, 31, 31);
+}
+
+/* GOOGLE IMAGE --------------------------------------------------------------------------------------- */
+.googleImgContainer {
+    display: flex;
+    justify-content: center; /*horizontal align*/
+    align-items: center;
+    height: 460px; /*vertical align*/
+}
+
+/* NAVIGATION BARS ---------------------------------------------------------------------------------------*/
+.topNavBar ul,
+.bottomNavBar ul {
+    list-style-type: none;
+}
+.bottomNavBar ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 0;
+}
+.topNavBar li {
+    float: right;
+}
+.bottomNavBar li {
+    float: left;
+}
+.topNavBar li a,
+.bottomNavBar li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(32, 31, 31);
+}
+.whiteText a {
+    color: rgb(199, 189, 189);
+    text-decoration: none;
+    font-family: Arial;
+}
+.whiteText a:hover {
+    text-decoration: underline;
+}
+.floatRight {
+    float: right !important;
+}
+.fontSmall {
+    font-size: 13px;
+}
+.fontMedium {
+    font-size: 15px;
+}
