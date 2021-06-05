@@ -3,11 +3,35 @@ body {
 }
 
 /* GOOGLE IMAGE --------------------------------------------------------------------------------------- */
-.googleImgContainer {
+.googleSearchBox {
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: center; /*horizontal align*/
-    align-items: center;
-    height: 460px; /*vertical align*/
+    /* align-items: center; */
+    height: 480px;
+    /* width: 100%; */
+    align-content: space-between;
+}
+
+.googleImgContainer {
+    width: 100%;
+    padding-left: 1150px;
+    /* padding-right: 1100px; */
+    align-self: center;
+}
+
+.searchBoxInput {
+    width: 100%;
+    padding-left: 950px;
+    padding-top: 30px;
+    align-self: center;
+}
+
+.searchInput {
+    height: 40px;
+    width: 500px;
+    border-radius: 25px;
 }
 
 /* NAVIGATION BARS ---------------------------------------------------------------------------------------*/
